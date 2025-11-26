@@ -13,4 +13,4 @@ question = "What does Hugging Face provide?"
 # let the pipeline find the best answer based on the context provided
 answer = qa_pipeline(question=question, context=context) 
 print(f"Question: {question}") 
-print(f"Answer: {answer['answerX']}")
+print(f"Answer: {answer['answer']}")
